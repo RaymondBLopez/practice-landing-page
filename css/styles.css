@@ -1,3 +1,7 @@
+html {
+  font-family: sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -5,8 +9,173 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+p,
+h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 8px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  gap: 200px;
+}
+
+.placeholder-img {
+  height: 250px;
+  width: 500px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 25%;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: white;
+  padding: 4px 14px;
+  border-radius: 0.3em;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 6px 0;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 1em;
+  height: 150px;
+  width: 150px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.testimonial {
+  width: 800px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  width: 900px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.4em;
+}
+
+.cta-text {
+  color: white;
+}
+
+.cta-btn {
+  border: 2px solid;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 30px 0;
 }
